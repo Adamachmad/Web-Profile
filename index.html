@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="id" xmlns:schema="https://schema.org/">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio pribadi Khalifah Adam Ahmad — Mahasiswa Teknik Informatika & Ilmu Komputer, Web Developer, dan atlet E-Sport." />
+  <meta name="author" content="Khalifah Adam Ahmad" />
+  <title>Khalifah Adam Ahmad — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- ════════════════════════════════════════════
+       JSON-LD SCHEMA.ORG — SEMANTIC WEB
+       ════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+
+      {
+        "@type": "Person",
+        "@id": "https://khalifaadamahmad.dev/#person",
+        "name": "Khalifah Adam Ahmad",
+        "alternateName": "Adam",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NIM",
+          "value": "F1G123047"
+        },
+        "birthDate": "2004-11-05",
+        "birthPlace": {
+          "@type": "Place",
+          "name": "Kendari",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kendari",
+            "addressRegion": "Sulawesi Tenggara",
+            "addressCountry": "ID"
+          }
+        },
+        "url": "https://khalifaadamahmad.dev/",
+        "jobTitle": "Mahasiswa Teknik Informatika & Ilmu Komputer",
+        "knowsAbout": [
+          { "@id": "https://khalifaadamahmad.dev/#skill-hardware" },
+          { "@id": "https://khalifaadamahmad.dev/#skill-network" },
+          { "@id": "https://khalifaadamahmad.dev/#skill-laravel" },
+          { "@id": "https://khalifaadamahmad.dev/#skill-esport" }
+        ],
+        "alumniOf": [
+          { "@id": "https://khalifaadamahmad.dev/#unusra" },
+          { "@id": "https://khalifaadamahmad.dev/#uho" }
+        ],
+        "memberOf": [
+          { "@id": "https://khalifaadamahmad.dev/#org-himtif" },
+          { "@id": "https://khalifaadamahmad.dev/#org-bem-fmipa" },
+          { "@id": "https://khalifaadamahmad.dev/#org-himaprodi-ilkom" },
+          { "@id": "https://khalifaadamahmad.dev/#org-its-too-far" }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": "SD",
+             "recognizedBy": { "@type": "School", "name": "SD Negeri 13 Poasia", "address": { "@type": "PostalAddress", "addressLocality": "Kendari" } }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": "SMP",
+             "recognizedBy": { "@type": "School", "name": "SMP Negeri 9 Kendari", "address": { "@type": "PostalAddress", "addressLocality": "Kendari" } }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": "SMK",
+             "recognizedBy": { "@type": "School", "name": "SMK Negeri 1 Kendari", "address": { "@type": "PostalAddress", "addressLocality": "Kendari" } }
+          }
+        ]
+      },
+
+      {
+        "@type": "CollegeOrUniversity",
+        "@id": "https://khalifaadamahmad.dev/#unusra",
+        "name": "Universitas Nahdlatul Ulama Sulawesi Tenggara",
+        "alternateName": "UNUSRA",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kendari",
+          "addressRegion": "Sulawesi Tenggara",
+          "addressCountry": "ID"
+        },
+        "department": {
+          "@type": "EducationalOrganization",
+          "name": "Jurusan Teknik Informatika"
+        },
+        "alumni": [{ "@id": "https://khalifaadamahmad.dev/#person" }]
+      },
+
+      {
+        "@type": "CollegeOrUniversity",
+        "@id": "https://khalifaadamahmad.dev/#uho",
+        "name": "Universitas Halu Oleo",
+        "alternateName": "UHO",
+        "url": "https://uho.ac.id",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kendari",
+          "addressRegion": "Sulawesi Tenggara",
+          "addressCountry": "ID"
+        },
+        "department": {
+          "@type": "EducationalOrganization",
+          "name": "Program Studi Ilmu Komputer, FMIPA"
+        },
+        "alumni": [{ "@id": "https://khalifaadamahmad.dev/#person" }]
+      },
+
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://khalifaadamahmad.dev/#skill-hardware",
+        "name": "Hardware & Perakitan PC",
+        "description": "Kemampuan merakit, mengdiagnosis, dan merawat komputer personal (PC) dari komponen.",
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "Skill Set Khalifah Adam Ahmad"
+        }
+      },
+
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://khalifaadamahmad.dev/#skill-network",
+        "name": "Jaringan Komputer",
+        "description": "Kemampuan instalasi jaringan dan pembuatan topologi jaringan komputer.",
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "Skill Set Khalifah Adam Ahmad"
+        }
+      },
+
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://khalifaadamahmad.dev/#skill-laravel",
+        "name": "Web Development (Laravel)",
+        "description": "Pengembangan aplikasi web menggunakan framework Laravel berbasis PHP.",
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "Skill Set Khalifah Adam Ahmad"
+        }
+      },
+
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://khalifaadamahmad.dev/#skill-esport",
+        "name": "E-Sport Kompetitif",
+        "description": "Atlet e-sport kompetitif dengan pencapaian rank Ascendant di Valorant dan juara turnamen lokal.",
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "Skill Set Khalifah Adam Ahmad"
+        }
+      },
+
+      {
+        "@type": "Event",
+        "@id": "https://khalifaadamahmad.dev/#event-valorant-tournament",
+        "name": "Turnamen Lokal Valorant",
+        "description": "Kompetisi Valorant tingkat lokal di mana Khalifah Adam Ahmad kerap meraih juara sebagai atlet e-sport.",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Kendari, Sulawesi Tenggara"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Komunitas E-Sport Lokal Kendari"
+        },
+        "performer": { "@id": "https://khalifaadamahmad.dev/#person" },
+        "superEvent": {
+          "@type": "Event",
+          "name": "Kompetisi E-Sport Regional Sulawesi Tenggara"
+        }
+      },
+
+      {
+        "@type": "Event",
+        "@id": "https://khalifaadamahmad.dev/#event-pubg-tournament",
+        "name": "Turnamen PUBG — ITS TOO FAR",
+        "description": "Keikutsertaan Khalifah Adam Ahmad dalam organisasi dan kompetisi e-sport PUBG bersama Tim ITS TOO FAR.",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Kendari, Sulawesi Tenggara"
+        },
+        "performer": { "@id": "https://khalifaadamahmad.dev/#person" }
+      },
+
+      {
+        "@type": "Organization",
+        "@id": "https://khalifaadamahmad.dev/#org-himtif",
+        "name": "Himpunan Mahasiswa Teknik Informatika UNUSRA",
+        "alternateName": "HIMTIF UNUSRA",
+        "description": "Organisasi kemahasiswaan Jurusan Teknik Informatika di Universitas Nahdlatul Ulama Sulawesi Tenggara.",
+        "parentOrganization": { "@id": "https://khalifaadamahmad.dev/#unusra" },
+        "member": [{ "@id": "https://khalifaadamahmad.dev/#person" }]
+      },
+
+      {
+        "@type": "Organization",
+        "@id": "https://khalifaadamahmad.dev/#org-bem-fmipa",
+        "name": "BEM FMIPA Universitas Halu Oleo",
+        "alternateName": "BEM FMIPA UHO",
+        "description": "Badan Eksekutif Mahasiswa Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Halu Oleo.",
+        "parentOrganization": { "@id": "https://khalifaadamahmad.dev/#uho" },
+        "member": [
+          {
+            "@type": "OrganizationRole",
+            "member": { "@id": "https://khalifaadamahmad.dev/#person" },
+            "roleName": "Menteri Media dan Informasi",
+            "startDate": "2025",
+            "endDate": "2026"
+          }
+        ]
+      },
+
+      {
+        "@type": "Organization",
+        "@id": "https://khalifaadamahmad.dev/#org-himaprodi-ilkom",
+        "name": "Himpunan Program Studi Ilmu Komputer UHO",
+        "alternateName": "Himaprodi Ilkom UHO",
+        "description": "Himpunan mahasiswa Program Studi Ilmu Komputer, FMIPA, Universitas Halu Oleo.",
+        "parentOrganization": { "@id": "https://khalifaadamahmad.dev/#uho" },
+        "member": [
+          {
+            "@type": "OrganizationRole",
+            "member": { "@id": "https://khalifaadamahmad.dev/#person" },
+            "roleName": "Ketua Himpunan",
+            "startDate": "2026",
+            "endDate": "2027"
+          }
+        ]
+      },
+
+      {
+        "@type": "SportsTeam",
+        "@id": "https://khalifaadamahmad.dev/#org-its-too-far",
+        "name": "ITS TOO FAR",
+        "description": "Tim e-sport PUBG yang diikuti oleh Khalifah Adam Ahmad dalam berbagai kompetisi.",
+        "sport": "PlayerUnknown's Battlegrounds (PUBG)",
+        "athlete": [{ "@id": "https://khalifaadamahmad.dev/#person" }]
+      }
+
+    ]
+  }
+  </script>
+
+  <style>
+    /* ══════════════════════════════════════════════
+       CSS CUSTOM PROPERTIES — TOKEN SYSTEM
+       ══════════════════════════════════════════════ */
+    :root {
+      --bg-base:     #080D1A;
+      --bg-surface:  #0F1629;
+      --bg-card:     #141C33;
+      --bg-card-hover: #1A2440;
+
+      --accent-cyan:  #00D4FF;
+      --accent-cyan2: #0099CC;
+      --accent-glow:  rgba(0, 212, 255, 0.18);
+      --accent-purple: #7B5EA7;
+
+      --text-primary:   #EDF2FF;
+      --text-secondary: #8899BB;
+      --text-muted:     #4A5C7A;
+
+      --border-subtle: rgba(0, 212, 255, 0.12);
+      --border-card:   rgba(0, 212, 255, 0.20);
+
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body:    'Inter', sans-serif;
+      --font-mono:    'JetBrains Mono', monospace;
+
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+
+      --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+      --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.25);
+    }
+
+    /* ══════════════════════════════════════════════
+       RESET & BASE
+       ══════════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+
+    /* ══════════════════════════════════════════════
+       SCROLLBAR
+       ══════════════════════════════════════════════ */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg-base); }
+    ::-webkit-scrollbar-thumb { background: var(--accent-cyan2); border-radius: 3px; }
+
+    /* ══════════════════════════════════════════════
+       NAVBAR
+       ══════════════════════════════════════════════ */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5%;
+      height: 68px;
+      background: rgba(8, 13, 26, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: background var(--transition);
+    }
+
+    .navbar__logo {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.05em;
+    }
+
+    .navbar__logo span { color: var(--text-secondary); }
+
+    .navbar__links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .navbar__links a {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color var(--transition);
+      position: relative;
+    }
+
+    .navbar__links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--accent-cyan);
+      transition: width var(--transition);
+    }
+
+    .navbar__links a:hover { color: var(--accent-cyan); }
+    .navbar__links a:hover::after { width: 100%; }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transition: transform var(--transition), opacity var(--transition);
+    }
+
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile nav */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 68px;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      background: rgba(8, 13, 26, 0.97);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 1.5rem 5%;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .mobile-nav.open { display: flex; }
+
+    .mobile-nav a {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: color var(--transition);
+    }
+
+    .mobile-nav a:hover { color: var(--accent-cyan); }
+
+    /* ══════════════════════════════════════════════
+       SECTION COMMON
+       ══════════════════════════════════════════════ */
+    .section {
+      padding: 100px 5%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section__eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    .section__title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .section__title em {
+      font-style: normal;
+      color: var(--accent-cyan);
+    }
+
+    .section__divider {
+      width: 48px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-cyan), transparent);
+      border-radius: 3px;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Separator between full-width sections */
+    .section-separator {
+      border: none;
+      border-top: 1px solid var(--border-subtle);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ══════════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════════ */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 5%;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 4rem;
+      position: relative;
+    }
+
+    /* Ambient background blobs */
+    .hero::before {
+      content: '';
+      position: fixed;
+      top: -20%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(0, 212, 255, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero__content {
+      flex: 1;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero__greeting {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--accent-cyan);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero__greeting::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--accent-cyan);
+    }
+
+    .hero__name {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Glitch effect — signature element */
+    .glitch {
+      position: relative;
+      display: inline-block;
+    }
+
+    .glitch::before,
+    .glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .glitch::before {
+      color: var(--accent-cyan);
+      clip-path: polygon(0 30%, 100% 30%, 100% 50%, 0 50%);
+      transform: translateX(-3px);
+      animation: glitch-top 4s infinite;
+      opacity: 0;
+    }
+
+    .glitch::after {
+      color: var(--accent-purple);
+      clip-path: polygon(0 60%, 100% 60%, 100% 75%, 0 75%);
+      transform: translateX(3px);
+      animation: glitch-bot 4s infinite;
+      opacity: 0;
+    }
+
+    @keyframes glitch-top {
+      0%, 88%, 100% { opacity: 0; transform: translateX(0); }
+      90% { opacity: 0.7; transform: translateX(-4px); }
+      92% { opacity: 0; transform: translateX(4px); }
+      94% { opacity: 0.5; transform: translateX(-2px); }
+      96% { opacity: 0; }
+    }
+
+    @keyframes glitch-bot {
+      0%, 88%, 100% { opacity: 0; transform: translateX(0); }
+      91% { opacity: 0.7; transform: translateX(4px); }
+      93% { opacity: 0; transform: translateX(-4px); }
+      95% { opacity: 0.5; transform: translateX(2px); }
+      97% { opacity: 0; }
+    }
+
+    .hero__subtitle {
+      font-family: var(--font-display);
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      font-weight: 400;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero__subtitle strong {
+      color: var(--accent-cyan);
+      font-weight: 600;
+    }
+
+    .hero__nim {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-sm);
+      padding: 0.3rem 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero__cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-display);
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.7rem 1.6rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all var(--transition);
+      border: 1.5px solid transparent;
+      letter-spacing: 0.02em;
+    }
+
+    .btn--primary {
+      background: var(--accent-cyan);
+      color: var(--bg-base);
+      border-color: var(--accent-cyan);
+    }
+
+    .btn--primary:hover {
+      background: transparent;
+      color: var(--accent-cyan);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .btn--outline {
+      background: transparent;
+      color: var(--text-primary);
+      border-color: var(--border-card);
+    }
+
+    .btn--outline:hover {
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+    }
+
+    /* Hero visual / avatar area */
+    .hero__visual {
+      flex: 0 0 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero__avatar-ring {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, var(--accent-cyan), var(--accent-purple), var(--bg-surface), var(--accent-cyan));
+      padding: 3px;
+      position: relative;
+    }
+
+    .hero__avatar-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: var(--bg-card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 5rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      letter-spacing: -0.03em;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ══════════════════════════════════════════════
+       IDENTITY / BIO CARDS
+       ══════════════════════════════════════════════ */
+    .identity-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .info-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+      padding: 1.4rem 1.5rem;
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .info-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, var(--accent-glow) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+
+    .info-card:hover { border-color: var(--accent-cyan); transform: translateY(-3px); box-shadow: var(--shadow-glow); }
+    .info-card:hover::before { opacity: 1; }
+
+    .info-card__icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .info-card__label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
+    .info-card__value {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    /* ══════════════════════════════════════════════
+       EDUCATION — VERTICAL TIMELINE
+       ══════════════════════════════════════════════ */
+    .timeline {
+      position: relative;
+      padding-left: 2.5rem;
+    }
+
+    /* Glowing vertical line */
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: linear-gradient(
+        to bottom,
+        transparent,
+        var(--accent-cyan) 15%,
+        var(--accent-cyan) 85%,
+        transparent
+      );
+      box-shadow: 0 0 8px var(--accent-cyan);
+    }
+
+    .timeline__item {
+      position: relative;
+      margin-bottom: 2.5rem;
+    }
+
+    .timeline__item:last-child { margin-bottom: 0; }
+
+    /* Dot on the line */
+    .timeline__dot {
+      position: absolute;
+      left: -2.5rem;
+      top: 6px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--bg-base);
+      border: 2px solid var(--accent-cyan);
+      transform: translateX(-6px);
+      transition: all var(--transition);
+      z-index: 1;
+    }
+
+    .timeline__item:hover .timeline__dot {
+      background: var(--accent-cyan);
+      box-shadow: 0 0 12px var(--accent-cyan);
+    }
+
+    /* Active (current) dot */
+    .timeline__dot--active {
+      background: var(--accent-cyan);
+      box-shadow: 0 0 10px var(--accent-cyan);
+    }
+
+    .timeline__dot--active::after {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      border: 1.5px solid var(--accent-cyan);
+      opacity: 0.5;
+      animation: pulse-ring 1.8s ease-out infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% { transform: scale(1); opacity: 0.5; }
+      100% { transform: scale(2); opacity: 0; }
+    }
+
+    .timeline__card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.3rem 1.5rem;
+      transition: all var(--transition);
+    }
+
+    .timeline__item:hover .timeline__card {
+      border-color: var(--border-card);
+      box-shadow: var(--shadow-card);
+    }
+
+    .timeline__meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.3rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      font-weight: 500;
+      padding: 0.15rem 0.55rem;
+      border-radius: 20px;
+      letter-spacing: 0.08em;
+    }
+
+    .badge--active {
+      background: rgba(0, 212, 255, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+    }
+
+    .badge--done {
+      background: rgba(74, 92, 122, 0.3);
+      color: var(--text-muted);
+      border: 1px solid rgba(74, 92, 122, 0.3);
+    }
+
+    .timeline__school {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline__program {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+    }
+
+    /* ══════════════════════════════════════════════
+       SKILLS
+       ══════════════════════════════════════════════ */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .skill-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.6rem;
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .skill-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
+      transition: width 0.4s ease;
+    }
+
+    .skill-card:hover {
+      border-color: var(--border-card);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .skill-card:hover::after { width: 100%; }
+
+    .skill-card__icon {
+      width: 44px;
+      height: 44px;
+      background: var(--accent-glow);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .skill-card__name {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-card__desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .skill-card__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 1rem;
+    }
+
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      padding: 0.2rem 0.6rem;
+      background: rgba(0, 212, 255, 0.08);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      color: var(--accent-cyan);
+      border-radius: 20px;
+    }
+
+    /* ══════════════════════════════════════════════
+       ORGANIZATIONS
+       ══════════════════════════════════════════════ */
+    .org-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .org-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: all var(--transition);
+    }
+
+    .org-card:hover {
+      border-color: var(--border-card);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-card);
+    }
+
+    .org-card__header {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .org-card__emoji {
+      font-size: 2rem;
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      background: var(--accent-glow);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .org-card__name {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .org-card__type {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 0.2rem;
+    }
+
+    .org-card__role {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .org-card__role strong {
+      color: var(--accent-cyan);
+      font-weight: 600;
+    }
+
+    .org-card__period {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: auto;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    /* ══════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════ */
+    footer {
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-subtle);
+      text-align: center;
+      padding: 2.5rem 5%;
+    }
+
+    .footer__name {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .footer__nim {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+
+    .footer__links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer__links a {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      transition: color var(--transition);
+    }
+
+    .footer__links a:hover { color: var(--accent-cyan); }
+
+    .footer__copy {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .footer__copy em { color: var(--accent-cyan); font-style: normal; }
+
+    /* ══════════════════════════════════════════════
+       SCROLL DOT INDICATOR (desktop)
+       ══════════════════════════════════════════════ */
+    .scroll-dots {
+      position: fixed;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 50;
+    }
+
+    .scroll-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text-muted);
+      cursor: pointer;
+      transition: all var(--transition);
+      position: relative;
+    }
+
+    .scroll-dot::before {
+      content: attr(data-label);
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--accent-cyan);
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity var(--transition);
+      letter-spacing: 0.08em;
+    }
+
+    .scroll-dot:hover::before,
+    .scroll-dot.active::before { opacity: 1; }
+    .scroll-dot.active { background: var(--accent-cyan); box-shadow: 0 0 8px var(--accent-cyan); transform: scale(1.3); }
+    .scroll-dot:hover { background: var(--accent-cyan2); }
+
+    /* ══════════════════════════════════════════════
+       RESPONSIVE
+       ══════════════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .hero { flex-direction: column-reverse; text-align: center; padding-top: 100px; min-height: auto; padding-bottom: 4rem; }
+      .hero__greeting { justify-content: center; }
+      .hero__cta-group { justify-content: center; }
+      .hero__visual { flex: unset; }
+      .hero__avatar-ring { width: 200px; height: 200px; }
+      .hero__avatar-inner { font-size: 3.5rem; }
+      .scroll-dots { display: none; }
+    }
+
+    @media (max-width: 680px) {
+      .navbar__links { display: none; }
+      .hamburger { display: flex; }
+      .section { padding: 70px 5%; }
+      .identity-grid { grid-template-columns: 1fr 1fr; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .org-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 420px) {
+      .identity-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ══════════════════════════════════════════════
+       3D EFFECTS & PERSPECTIVE
+       ══════════════════════════════════════════════ */
+    #canvas-3d {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .hero__avatar-ring {
+      perspective: 1000px;
+      position: relative;
+    }
+
+    /* 3D Card effects */
+    .skill-card, .org-card, .info-card, .timeline__card {
+      perspective: 1200px;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+
+    .skill-card:hover, .org-card:hover, .info-card:hover {
+      transform: rotateX(5deg) rotateY(5deg) translateZ(20px);
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <header role="banner">
+    <nav class="navbar" aria-label="Navigasi Utama">
+      <a href="#hero" class="navbar__logo" aria-label="Khalifah Adam Ahmad">
+        <span>~/</span>khalifah<span>.dev</span>
+      </a>
+
+      <ul class="navbar__links" role="list">
+        <li><a href="#identity">Identitas</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#organizations">Organisasi</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navigasi Mobile">
+      <a href="#identity" class="mobile-link">Identitas</a>
+      <a href="#education" class="mobile-link">Pendidikan</a>
+      <a href="#skills" class="mobile-link">Skill</a>
+      <a href="#organizations" class="mobile-link">Organisasi</a>
+    </nav>
+  </header>
+
+  <!-- Scroll position dots -->
+  <nav class="scroll-dots" aria-label="Scroll sections" id="scrollDots">
+    <button class="scroll-dot active" data-target="hero" data-label="Hero" aria-label="Scroll to Hero"></button>
+    <button class="scroll-dot" data-target="identity" data-label="Identitas" aria-label="Scroll to Identitas"></button>
+    <button class="scroll-dot" data-target="education" data-label="Pendidikan" aria-label="Scroll to Pendidikan"></button>
+    <button class="scroll-dot" data-target="skills" data-label="Skill" aria-label="Scroll to Skill"></button>
+    <button class="scroll-dot" data-target="organizations" data-label="Organisasi" aria-label="Scroll to Organisasi"></button>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════ -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero">
+        <div class="hero__content">
+          <p class="hero__greeting" aria-hidden="true">console.log("Hello, World!")</p>
+          <h1 class="hero__name" id="hero-heading">
+            <span class="glitch" data-text="Khalifah Adam">Khalifah Adam</span><br />
+            <span style="color: var(--accent-cyan);">Ahmad</span>
+          </h1>
+          <p class="hero__subtitle">
+            Mahasiswa <strong>Teknik Informatika & Ilmu Komputer</strong> —<br />
+            Web Developer · Network Engineer · E-Sport Athlete
+          </p>
+          <code class="hero__nim">NIM: F1G123047</code>
+          <div class="hero__cta-group">
+            <a href="#identity" class="btn btn--primary">Lihat Profil</a>
+            <a href="#skills" class="btn btn--outline">Skill Saya →</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__avatar-ring" id="avatar-3d-container">
+            <canvas id="canvas-3d" style="position: absolute; top: 0; left: 0; border-radius: 50%;"></canvas>
+            <img src="adam.JPG" alt="Khalifah Adam Ahmad" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center; position: relative; z-index: 1;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-separator" />
+
+    <!-- ═══════════════════════════════════════
+         SECTION 1 — IDENTITAS DIRI
+    ═══════════════════════════════════════ -->
+    <section id="identity" aria-labelledby="identity-heading">
+      <div class="section">
+        <p class="section__eyebrow">01 — Identitas Diri</p>
+        <h2 class="section__title" id="identity-heading">Siapa <em>Saya?</em></h2>
+        <div class="section__divider" aria-hidden="true"></div>
+
+        <div class="identity-grid" itemscope itemtype="https://schema.org/Person">
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">👤</span>
+            <p class="info-card__label">Nama Lengkap</p>
+            <p class="info-card__value" itemprop="name">Khalifah Adam Ahmad</p>
+          </article>
+
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">🎓</span>
+            <p class="info-card__label">NIM</p>
+            <p class="info-card__value" itemprop="identifier">F1G123047</p>
+          </article>
+
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">📍</span>
+            <p class="info-card__label">Tempat Lahir</p>
+            <p class="info-card__value" itemprop="birthPlace">Kendari</p>
+          </article>
+
+          <article class="info-card">
+            <span class="info-card__icon" aria-hidden="true">📅</span>
+            <p class="info-card__label">Tanggal Lahir</p>
+            <p class="info-card__value">
+              <time itemprop="birthDate" datetime="2004-11-05">5 November 2004</time>
+            </p>
+          </article>
+
+          <article class="info-card" style="grid-column: 1 / -1;">
+            <span class="info-card__icon" aria-hidden="true">💻</span>
+            <p class="info-card__label">Bidang Studi</p>
+            <p class="info-card__value" itemprop="jobTitle">Teknik Informatika & Ilmu Komputer</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-separator" />
+
+    <!-- ═══════════════════════════════════════
+         SECTION 2 — RIWAYAT PENDIDIKAN
+    ═══════════════════════════════════════ -->
+    <section id="education" aria-labelledby="education-heading">
+      <div class="section">
+        <p class="section__eyebrow">02 — Riwayat Pendidikan</p>
+        <h2 class="section__title" id="education-heading">Jejak <em>Akademik</em></h2>
+        <div class="section__divider" aria-hidden="true"></div>
+
+        <div class="timeline" role="list">
+
+          <!-- SD -->
+          <article class="timeline__item" role="listitem" itemscope itemtype="https://schema.org/EducationalOrganization">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span>Sekolah Dasar</span>
+                <span class="badge badge--done">Lulus</span>
+              </div>
+              <h3 class="timeline__school" itemprop="name">SD Negeri 13 Poasia</h3>
+              <p class="timeline__program" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Kendari</span>, Sulawesi Tenggara
+              </p>
+            </div>
+          </article>
+
+          <!-- SMP -->
+          <article class="timeline__item" role="listitem" itemscope itemtype="https://schema.org/EducationalOrganization">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span>Sekolah Menengah Pertama</span>
+                <span class="badge badge--done">Lulus</span>
+              </div>
+              <h3 class="timeline__school" itemprop="name">SMP Negeri 9 Kendari</h3>
+              <p class="timeline__program" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Kendari</span>, Sulawesi Tenggara
+              </p>
+            </div>
+          </article>
+
+          <!-- SMK -->
+          <article class="timeline__item" role="listitem" itemscope itemtype="https://schema.org/EducationalOrganization">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span>Sekolah Menengah Kejuruan</span>
+                <span class="badge badge--done">Lulus</span>
+              </div>
+              <h3 class="timeline__school" itemprop="name">SMK Negeri 1 Kendari</h3>
+              <p class="timeline__program" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Kendari</span>, Sulawesi Tenggara
+              </p>
+            </div>
+          </article>
+
+          <!-- UNUSRA -->
+          <article class="timeline__item" role="listitem" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+            <div class="timeline__dot timeline__dot--active" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span>Perguruan Tinggi (S1)</span>
+                <span class="badge badge--active">Aktif Kuliah</span>
+              </div>
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <img src="logo unusra.png" alt="Logo UNUSRA" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;" />
+                <div>
+                  <h3 class="timeline__school" itemprop="name">Universitas Nahdlatul Ulama Sulawesi Tenggara</h3>
+                  <p class="timeline__program">
+                    Jurusan <strong style="color:var(--accent-cyan);">Teknik Informatika</strong> — UNUSRA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- UHO -->
+          <article class="timeline__item" role="listitem" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+            <div class="timeline__dot timeline__dot--active" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__meta">
+                <span>Perguruan Tinggi (S1)</span>
+                <span class="badge badge--active">Aktif Kuliah</span>
+              </div>
+              <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <img src="Logo-UHO-Normal-1.png" alt="Logo UHO" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;" />
+                <div>
+                  <h3 class="timeline__school" itemprop="name">Universitas Halu Oleo</h3>
+                  <p class="timeline__program">
+                    Program Studi <strong style="color:var(--accent-cyan);">Ilmu Komputer</strong>, FMIPA — UHO
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-separator" />
+
+    <!-- ═══════════════════════════════════════
+         SECTION 3 — SKILL
+    ═══════════════════════════════════════ -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="section">
+        <p class="section__eyebrow">03 — Keahlian</p>
+        <h2 class="section__title" id="skills-heading">Daftar <em>Skill</em></h2>
+        <div class="section__divider" aria-hidden="true"></div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card" itemscope itemtype="https://schema.org/DefinedTerm">
+            <div class="skill-card__icon" aria-hidden="true">🔧</div>
+            <h3 class="skill-card__name" itemprop="name">Hardware & Rakit PC</h3>
+            <p class="skill-card__desc" itemprop="description">
+              Berpengalaman merakit komputer personal dari nol — mulai dari pemilihan komponen, pemasangan, hingga troubleshooting dan optimasi performa sistem.
+            </p>
+            <div class="skill-card__tags" aria-label="Teknologi terkait">
+              <span class="tag">CPU & Cooling</span>
+              <span class="tag">GPU</span>
+              <span class="tag">Motherboard</span>
+              <span class="tag">Troubleshooting</span>
+            </div>
+          </article>
+
+          <article class="skill-card" itemscope itemtype="https://schema.org/DefinedTerm">
+            <div class="skill-card__icon" aria-hidden="true">🌐</div>
+            <h3 class="skill-card__name" itemprop="name">Jaringan Komputer</h3>
+            <p class="skill-card__desc" itemprop="description">
+              Mampu melakukan instalasi jaringan dan perancangan topologi jaringan komputer, mencakup konfigurasi perangkat keras jaringan dan pengkabelan.
+            </p>
+            <div class="skill-card__tags" aria-label="Teknologi terkait">
+              <span class="tag">Topologi Jaringan</span>
+              <span class="tag">Instalasi</span>
+              <span class="tag">TCP/IP</span>
+              <span class="tag">Routing</span>
+            </div>
+          </article>
+
+          <article class="skill-card" itemscope itemtype="https://schema.org/DefinedTerm">
+            <div class="skill-card__icon" aria-hidden="true">⚡</div>
+            <h3 class="skill-card__name" itemprop="name">Web Development — Laravel</h3>
+            <p class="skill-card__desc" itemprop="description">
+              Pengembangan aplikasi web full-stack menggunakan framework Laravel. Membangun sistem berbasis MVC dengan fitur autentikasi, database, dan API.
+            </p>
+            <div class="skill-card__tags" aria-label="Teknologi terkait">
+              <span class="tag">Laravel</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Blade</span>
+              <span class="tag">REST API</span>
+            </div>
+          </article>
+
+          <article class="skill-card" itemscope itemtype="https://schema.org/DefinedTerm">
+            <div class="skill-card__icon" aria-hidden="true">🎮</div>
+            <h3 class="skill-card__name" itemprop="name">E-Sport Kompetitif</h3>
+            <p class="skill-card__desc" itemprop="description">
+              Atlet e-sport aktif dengan pencapaian rank <strong style="color:var(--accent-cyan)">Ascendant</strong> di Valorant dan pengalaman juara di berbagai turnamen lokal. Juga aktif di kompetisi PUBG.
+            </p>
+            <div class="skill-card__tags" aria-label="Game yang dimainkan">
+              <span class="tag">Valorant ⚔️</span>
+              <span class="tag">PUBG 🎯</span>
+              <span class="tag">Rank Ascendant</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-separator" />
+
+    <!-- ═══════════════════════════════════════
+         SECTION 4 — ORGANISASI
+    ═══════════════════════════════════════ -->
+    <section id="organizations" aria-labelledby="org-heading">
+      <div class="section">
+        <p class="section__eyebrow">04 — Keterlibatan Organisasi</p>
+        <h2 class="section__title" id="org-heading">Jejak <em>Organisasi</em></h2>
+        <div class="section__divider" aria-hidden="true"></div>
+
+        <div class="org-grid">
+
+          <!-- BEM FMIPA -->
+          <article class="org-card" itemscope itemtype="https://schema.org/Organization">
+            <div class="org-card__header">
+              <img src="Logo-UHO-Normal-1.png" alt="Logo UHO" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;" />
+              <div>
+                <h3 class="org-card__name" itemprop="name">BEM FMIPA Universitas Halu Oleo</h3>
+                <p class="org-card__type">Badan Eksekutif Mahasiswa</p>
+              </div>
+            </div>
+            <p class="org-card__role">
+              Menjabat sebagai <strong>Menteri Media dan Informasi</strong> — bertanggung jawab atas strategi komunikasi dan pengelolaan informasi BEM FMIPA UHO.
+            </p>
+            <p class="org-card__period">📅 Periode 2025 – 2026</p>
+          </article>
+
+          <!-- Himaprodi Ilkom -->
+          <article class="org-card" itemscope itemtype="https://schema.org/Organization">
+            <div class="org-card__header">
+              <img src="Logo-UHO-Normal-1.png" alt="Logo UHO" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;" />
+              <div>
+                <h3 class="org-card__name" itemprop="name">Himpunan Prodi Ilmu Komputer UHO</h3>
+                <p class="org-card__type">Himpunan Mahasiswa Program Studi</p>
+              </div>
+            </div>
+            <p class="org-card__role">
+              Menjabat sebagai <strong>Ketua Himpunan</strong> — memimpin dan mengkoordinasikan seluruh kegiatan akademik dan non-akademik himpunan Ilmu Komputer UHO.
+            </p>
+            <p class="org-card__period">📅 Periode 2026 – 2027</p>
+          </article>
+
+          <!-- HIMTIF UNUSRA -->
+          <article class="org-card" itemscope itemtype="https://schema.org/Organization">
+            <div class="org-card__header">
+              <img src="logo unusra.png" alt="Logo UNUSRA" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;" />
+              <div>
+                <h3 class="org-card__name" itemprop="name">HIMTIF UNUSRA</h3>
+                <p class="org-card__type">Himpunan Mahasiswa Teknik Informatika</p>
+              </div>
+            </div>
+            <p class="org-card__role">
+              Anggota <strong>aktif</strong> di HIMTIF (Himpunan Mahasiswa Teknik Informatika) Universitas Nahdlatul Ulama Sulawesi Tenggara.
+            </p>
+            <p class="org-card__period">📅 Aktif</p>
+          </article>
+
+          <!-- ITS TOO FAR -->
+          <article class="org-card" itemscope itemtype="https://schema.org/SportsTeam">
+            <div class="org-card__header">
+              <div class="org-card__emoji" aria-hidden="true">🎯</div>
+              <div>
+                <h3 class="org-card__name" itemprop="name">Tim E-Sport ITS TOO FAR</h3>
+                <p class="org-card__type" itemprop="sport">Organisasi E-Sport — PUBG</p>
+              </div>
+            </div>
+            <p class="org-card__role">
+              Pernah aktif sebagai <strong>anggota tim</strong> dalam organisasi dan kompetisi e-sport PUBG bersama Tim ITS TOO FAR.
+            </p>
+            <p class="org-card__period">📅 Alumni Anggota</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <p class="footer__name">Khalifah Adam Ahmad</p>
+    <p class="footer__nim">NIM: F1G123047 — Teknik Informatika & Ilmu Komputer</p>
+    <nav class="footer__links" aria-label="Footer navigation">
+      <a href="#identity">Identitas</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#skills">Skill</a>
+      <a href="#organizations">Organisasi</a>
+    </nav>
+    <p class="footer__copy">
+      Dioptimasi dengan <em>Semantic Web</em> · Schema.org JSON-LD · © 2025 Khalifah Adam Ahmad
+    </p>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════
+       JAVASCRIPT
+       ══════════════════════════════════════════════ -->
+  <script>
+    // ══════════════════════════════════════════════
+    // THREE.JS SETUP
+    // ══════════════════════════════════════════════
+    let scene, camera, renderer, particles = [];
+    let mouseX = 0, mouseY = 0;
+    let isMobile = window.innerWidth < 768;
+
+    function initThreeJS() {
+      const container = document.getElementById('avatar-3d-container');
+      const canvas = document.getElementById('canvas-3d');
+      
+      if (!container || !canvas) return;
+
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      // Scene setup
+      scene = new THREE.Scene();
+      scene.fog = new THREE.Fog(0x080D1A, 100, 1000);
+
+      // Camera
+      camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+      camera.position.z = 50;
+
+      // Renderer
+      renderer = new THREE.WebGLRenderer({ 
+        canvas: canvas, 
+        alpha: true, 
+        antialias: true,
+        precision: 'mediump'
+      });
+      renderer.setSize(width, height);
+      renderer.setPixelRatio(isMobile ? window.devicePixelRatio * 0.5 : window.devicePixelRatio);
+      renderer.setClearColor(0x000000, 0);
+
+      // Create particles
+      createParticles();
+
+      // Add some geometric shapes for visual interest
+      createGeometricShapes();
+
+      // Mouse tracking
+      document.addEventListener('mousemove', onMouseMove);
+      window.addEventListener('resize', onWindowResize);
+
+      // Animation loop
+      animate();
+    }
+
+    function createParticles() {
+      const particlesGeometry = new THREE.BufferGeometry();
+      const particleCount = isMobile ? 30 : 60;
+      
+      const posArray = new Float32Array(particleCount * 3);
+      for (let i = 0; i < particleCount * 3; i += 3) {
+        posArray[i] = (Math.random() - 0.5) * 100;
+        posArray[i + 1] = (Math.random() - 0.5) * 100;
+        posArray[i + 2] = (Math.random() - 0.5) * 100;
+      }
+
+      particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+
+      const particlesMaterial = new THREE.PointsMaterial({
+        size: 0.5,
+        color: 0x00D4FF,
+        sizeAttenuation: true,
+        transparent: true,
+        opacity: 0.6
+      });
+
+      const particleSystem = new THREE.Points(particlesGeometry, particlesMaterial);
+      scene.add(particleSystem);
+
+      // Store particle data for animation
+      particles.push({
+        mesh: particleSystem,
+        speed: (Math.random() - 0.5) * 0.02
+      });
+    }
+
+    function createGeometricShapes() {
+      // Create rotating tetrahedron
+      const geometry = new THREE.TetrahedronGeometry(15, 0);
+      const material = new THREE.MeshPhongMaterial({
+        color: 0x00D4FF,
+        wireframe: !isMobile,
+        emissive: 0x0099CC,
+        transparent: true,
+        opacity: 0.7
+      });
+
+      const tetrahedron = new THREE.Mesh(geometry, material);
+      tetrahedron.userData.rotationSpeed = { x: 0.003, y: 0.004, z: 0.002 };
+      scene.add(tetrahedron);
+
+      // Add light
+      const light = new THREE.PointLight(0x00D4FF, 1, 100);
+      light.position.set(30, 30, 30);
+      scene.add(light);
+
+      const ambientLight = new THREE.AmbientLight(0x4A5C7A, 0.5);
+      scene.add(ambientLight);
+    }
+
+    function onMouseMove(event) {
+      mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+      mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
+    }
+
+    function onWindowResize() {
+      const container = document.getElementById('avatar-3d-container');
+      if (!container || !renderer) return;
+
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+      renderer.setSize(width, height);
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      if (!scene || !renderer) return;
+
+      // Rotate particles
+      particles.forEach(p => {
+        p.mesh.rotation.x += p.speed;
+        p.mesh.rotation.y += p.speed * 0.5;
+      });
+
+      // Rotate geometric shape
+      scene.children.forEach(child => {
+        if (child.userData.rotationSpeed) {
+          child.rotation.x += child.userData.rotationSpeed.x;
+          child.rotation.y += child.userData.rotationSpeed.y;
+          child.rotation.z += child.userData.rotationSpeed.z;
+
+          // Mouse tracking
+          child.rotation.y += mouseX * 0.0005;
+          child.rotation.x += mouseY * 0.0005;
+        }
+      });
+
+      renderer.render(scene, camera);
+    }
+
+    // ══════════════════════════════════════════════
+    // ORIGINAL SCRIPTS
+    // ══════════════════════════════════════════════
+
+    /* ── Hamburger toggle ── */
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+
+    /* Close mobile nav on link click */
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNav.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* ── Scroll dot indicator ── */
+    const dots = document.querySelectorAll('.scroll-dot');
+    const sections = ['hero', 'identity', 'education', 'skills', 'organizations'];
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const target = document.getElementById(dot.dataset.target);
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    const observerOptions = { root: null, rootMargin: '-40% 0px -40% 0px', threshold: 0 };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          dots.forEach(d => d.classList.toggle('active', d.dataset.target === id));
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    /* ── Navbar scroll shadow ── */
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      navbar.style.background = window.scrollY > 40
+        ? 'rgba(8, 13, 26, 0.97)'
+        : 'rgba(8, 13, 26, 0.85)';
+    }, { passive: true });
+
+    /* ── Init Three.js when page loads ── */
+    window.addEventListener('load', () => {
+      setTimeout(initThreeJS, 100);
+    });
+
+    // Fallback if page is already loaded
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(initThreeJS, 100);
+    }
+
+    // ── 3D Card hover effects ──
+    function add3DCardEffects() {
+      const cards = document.querySelectorAll('.skill-card, .org-card, .info-card');
+      
+      cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = (e.clientX - rect.left) / rect.width - 0.5;
+          const y = (e.clientY - rect.top) / rect.height - 0.5;
+          
+          card.style.transform = `perspective(1200px) rotateX(${y * 10}deg) rotateY(${x * 10}deg) translateZ(20px)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'perspective(1200px) rotateX(0) rotateY(0) translateZ(0)';
+        });
+      });
+    }
+
+    // Init card effects
+    document.addEventListener('DOMContentLoaded', add3DCardEffects);
+    if (document.readyState === 'complete') {
+      add3DCardEffects();
+    }
+  </script>
+
+</body>
+</html>
